@@ -980,6 +980,10 @@
         grid-template: 1fr / 145px 1fr;
     }
 
+    .section__wrap06 {
+        grid-template: 1fr / 1fr 145px;
+    }
+
     /*** section__phase ***/
     .section__phase {
         top: 4px;
