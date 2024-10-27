@@ -596,6 +596,7 @@
     width: 100%; height: 100%;
     mix-blend-mode: multiply;
     z-index: -1;
+    transition-duration: .4s
 }
 
 .section__grid__item a {
@@ -603,7 +604,6 @@
     position: absolute;
     width: 100%; height: 100%;
     overflow: hidden;
-    pointer-events: none;
 }
 
 .section__grid__item a img {
@@ -614,6 +614,19 @@
     width: auto;
     z-index: -3;
     filter: grayscale();
+    transition-duration: .4s
+}
+
+.section__grid__item:hover a img {
+    filter: initial;
+}
+
+.section__grid__item:hover a video {
+    filter: initial;
+}
+
+.section__grid__item:hover .sec__grid__color {
+    display: none;
 }
 
 .sec__grid__box__txt {
@@ -674,6 +687,7 @@
     width: 120%;
     z-index: -3;
     filter: grayscale();
+    transition-duration: .4s
 }
 
 .section04__grid__item02 a video {
