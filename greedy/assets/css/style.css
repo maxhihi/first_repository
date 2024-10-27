@@ -1174,4 +1174,8 @@
         font-family: "Raleway", sans-serif;
 
     }
+
+    .section06 {
+        order: 2;
+    } 
 }
